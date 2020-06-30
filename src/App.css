@@ -1,0 +1,39 @@
+/* CSS for org chart */
+
+svg {
+  /* border: 1px solid red; */
+  /* padding-top: 10%; */
+  /* background: #eee; */
+  overflow: hidden;
+  /* display: block; */
+  width: 100%;
+  height: 100%;
+}
+
+/* .node {
+  cursor: pointer;
+} */
+
+circle {
+  fill:#eee;
+  stroke: #282828;
+  stroke-width: 0.5px;
+  opacity: 1;
+
+  cursor: pointer;
+}
+
+.link {
+  fill: none;
+  stroke: #282828;
+  stroke-width: 1.5px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  /* justify-content: center; */
+  height: 100vh;
+  /* padding: 0 50px; */
+}
