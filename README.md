@@ -4,6 +4,21 @@ See [parent repository](https://github.com/DSD-ESDC-EDSC/dynamic-org-chart) for 
 
 > This repository illustrates one way to integrate D3.js with React. The use case for this integration is an interactive searchable organization chart for the Government of Canada. The underlying organization chart data are derived using the [Government of Canada Employee Contact Information (GEDS)](https://open.canada.ca/data/en/dataset/8ec4a9df-b76b-4a67-8f93-cdbc2e040098) dataset that is made available under the [Open Government License - Canada](https://open.canada.ca/en/open-government-licence-canada). The code that was used to extract the org chart from the GEDS dataset can be found [here](https://github.com/DSD-ESDC-EDSC/dynamic-org-chart-scripts).
 
+## Start up instructions
+1. In a terminal, clone ```dynamic-org-chart-ui``` into a folder on your computer.
+```
+git clone https://github.com/DSD-ESDC-EDSC/dynamic-org-chart-ui
+```
+2. Install all npm packages in the ```package.json``` file and start the react dev server. I.e. run
+```
+npm install
+```
+in the project root, then run
+```
+npm start
+```
+also in the project root.
+
 ## Overview and Features
 D3.js is one of the most commonly used JavaScript libraries for building interactive data visualizations on the web. Similarly, React and the ecosystem of libraries built around React have become one of the most popular choices for building component based user interfaces. A common use case for integrating the two is to utilize React for its 
 
